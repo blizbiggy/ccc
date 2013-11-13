@@ -28,7 +28,7 @@ import java.net.*;
 
 DropdownList d1;
 
-String serverIP = "131.123.129.19";
+String serverIP = "";
 float valueOfDropdown = 1.0;
 String dropdownGroupName;
 int dropdownState = 0;
@@ -421,7 +421,7 @@ public void Kent_Main(){
     //debug_Local.hide();
     dropdownState = 0;
     defaultButton.setImage(dropdown2);
-    serverIP = "131.123.147.223";
+    serverIP = "";
   }
 }
 
@@ -433,7 +433,7 @@ public void Kent_Stark(){
     //debug_Local.hide();
     dropdownState = 0;
     defaultButton.setImage(dropdown4);
-    serverIP = "131.123.123.149";
+    serverIP = "";
   }
 }
 
@@ -445,7 +445,7 @@ public void Kent_Tusc(){
     //debug_Local.hide();
     dropdownState = 0;
     defaultButton.setImage(dropdown3);
-    serverIP = "131.123.129.19";
+    serverIP = "";
   }
 }
 
